@@ -1,3 +1,4 @@
+<html>
 <style>
 html, body, form, table, div, h1, h2, h3, h4, h5, h6, img, ol, ul, li, button {
     margin: 0px;
@@ -98,3 +99,4 @@ if (isset($_GET["id"]) && isset($_GET["lang"])) {
     print "ERROR: Cannot find Google Scholar Account </br>";
 }
 ?>
+</html>
