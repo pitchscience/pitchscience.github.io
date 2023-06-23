@@ -29,7 +29,7 @@ body, td {
 <?php  
 	function filter_content($content, $url)
 	{
-		$url = 'citations.php?id=8VkW_igAAAAJ&lang=en'
+		$url = 'citations.php?id=8VkW_igAAAAJ&lang=en';
 		$contentText = '';
 		$output = preg_match_all('/<div class="gsc_rsb_s gsc_prf_pnl" id="gsc_rsb_cit" role="region" aria-labelledby="gsc_prf_t-cit">(.*)<\/div><div class="gsc_rsb_s gsc_prf_pnl" id="gsc_rsb_co" role="region" aria-labelledby="gsc_prf_t-ath">/is',$content,$matches);
 		// if this has not worked try another variant:
